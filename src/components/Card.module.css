@@ -1,0 +1,40 @@
+.status_green, .status_red {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+}
+
+.status_green {
+    background-color: green;
+}
+
+.status_red {
+    background-color: red;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.api_card {
+  flex-basis: calc(100% / 2);
+  width: min-content;
+  height: 350px;
+  background-color: gray;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.api_card img {
+  margin-top: 30px;
+  border-radius: 50%;
+  border: 2px white solid;
+  object-fit: cover;
+  margin: 0 auto;
+}
