@@ -1,0 +1,29 @@
+.mainContent {
+    width: 80vw;
+    height: 90vh;
+    margin-top: 50px;
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin: 0 auto
+}
+
+.graphHolder {
+    width: calc(100vw/2 - 50px);
+    height: 60vh;
+}
+
+
+@media screen and (max-width: 970px) {
+    .mainContent {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .graphHolder {
+        width: 60vw;
+    }
+}
